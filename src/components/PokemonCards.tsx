@@ -19,7 +19,7 @@ export default function PokemonCards({ pokemon, index }: Props) {
 
   return (
     <Link href={`/pokemon/${pokemon.name}`}>
-      <div className="ima rounded-2xl shadow-xl p-4 flex sm:flex-col sm:items-center justify-between bg-primary">
+      <div className="ima rounded-2xl shadow-xl p-4 flex sm:flex-col sm:items-center justify-between bg-liniearPrimary">
         <span className="capitalize font-semibold text-lg lg:text-sm sm:text-base  text-white">
           {pokemon.name}
         </span>

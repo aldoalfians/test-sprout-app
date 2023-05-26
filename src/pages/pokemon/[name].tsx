@@ -46,7 +46,7 @@ export default function PokeDetail({ pokemon }: any) {
       <div className="w-full">
         <Layout className="sm:!p-0">
           <div className="flex flex-col items-center justify-between ">
-            <div className="bg-liniearPrimary flex flex-col justify-between w-full min-h-screen h-24  rounded-2xl  ">
+            <div className="bg-circlularPrimary flex flex-col justify-between w-full min-h-screen h-24  rounded-2xl  ">
               <section className="flex justify-between p-8 items-center ">
                 <div className="flex flex-col gap-4">
                   <h2 className="capitalize text-5xl font-bold md:text-2xl  text-white">

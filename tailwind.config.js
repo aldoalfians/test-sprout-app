@@ -13,7 +13,9 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        liniearPrimary: "linear-gradient(180deg, #3E00FF 0%, #6B76FF 39.8%)",
+        liniearPrimary: "linear-gradient(180deg, #6B76FF 0%, #5C33F6  39.8%)",
+        circlularPrimary:
+          "repeating-radial-gradient(#5C33F6 2px, #6B76FF 5px, #6B76FF 70px);",
       },
       fontFamily: {
         mont: ["var(--font-mont)", ...fontFamily.sans],
